@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="10.935">
+    <testcase classname="Takealot Login" name="Test login using multiple different credentials" time="10.375">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=108.0.5359.124)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [73ea3ecb0f35f0df73bb3e8960fdbf2e, get {url=https://www.master.env/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54670/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 73ea3ecb0f35f0df73bb3e8960fdbf2e" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given User is on Takealot home page.........................................failed
+When User clicks on the login link..........................................skipped
+Then User should be navigated to the login page.............................skipped
+Given User is on login page.................................................skipped
+When User enters login details as username "jenkins" and password "ci123"...skipped
+When User clicks on the Login button........................................skipped
+Then Takealot Home Page is displayed........................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73ea3ecb0f35f0df73bb3e8960fdbf2e, get {url=https://www.master.env/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54670/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ea3ecb0f35f0df73bb3e8960fdbf2e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at pageObjects.HomePageObjects.navigate_to_home_page(HomePageObjects.java:25)
+	at stepDefinitions.LoginSteps.user_is_on_takealot_home_page(LoginSteps.java:28)
+	at ✽.User is on Takealot home page(file:///Users/anish.kaithassery/comseleniumcucumber/src/test/resources/features/Login.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Takealot Login" name="Test login using multiple different credentials 2" time="10.521">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=108.0.5359.124)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [aa9ea959b5671da13e1cc27227fdeae2, get {url=https://www.master.env/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54673/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa9ea959b5671da13e1cc27227fdeae2" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given User is on Takealot home page.........................................failed
+When User clicks on the login link..........................................skipped
+Then User should be navigated to the login page.............................skipped
+Given User is on login page.................................................skipped
+When User enters login details as username "admin" and password "admin123"..skipped
+When User clicks on the Login button........................................skipped
+Then Takealot Home Page is displayed........................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa9ea959b5671da13e1cc27227fdeae2, get {url=https://www.master.env/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54673/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa9ea959b5671da13e1cc27227fdeae2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at pageObjects.HomePageObjects.navigate_to_home_page(HomePageObjects.java:25)
+	at stepDefinitions.LoginSteps.user_is_on_takealot_home_page(LoginSteps.java:28)
+	at ✽.User is on Takealot home page(file:///Users/anish.kaithassery/comseleniumcucumber/src/test/resources/features/Login.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Takealot Login" name="Test login using multiple different credentials 3" time="10.592">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=108.0.5359.124)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7906f77338e4a2e8118b0baa52ca3fd7, get {url=https://www.master.env/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54672/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7906f77338e4a2e8118b0baa52ca3fd7" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given User is on Takealot home page.........................................failed
+When User clicks on the login link..........................................skipped
+Then User should be navigated to the login page.............................skipped
+Given User is on login page.................................................skipped
+When User enters login details as username "user" and password "user123"....skipped
+When User clicks on the Login button........................................skipped
+Then Takealot Home Page is displayed........................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7906f77338e4a2e8118b0baa52ca3fd7, get {url=https://www.master.env/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54672/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7906f77338e4a2e8118b0baa52ca3fd7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at pageObjects.HomePageObjects.navigate_to_home_page(HomePageObjects.java:25)
+	at stepDefinitions.LoginSteps.user_is_on_takealot_home_page(LoginSteps.java:28)
+	at ✽.User is on Takealot home page(file:///Users/anish.kaithassery/comseleniumcucumber/src/test/resources/features/Login.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Takealot Login" name="Test login using multiple different credentials 4" time="10.532">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=108.0.5359.124)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [fc61181d3c21a7520e0c7664592c50fa, get {url=https://www.master.env/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54671/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fc61181d3c21a7520e0c7664592c50fa" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given User is on Takealot home page.........................................failed
+When User clicks on the login link..........................................skipped
+Then User should be navigated to the login page.............................skipped
+Given User is on login page.................................................skipped
+When User enters login details as username "manager" and password "manager123".skipped
+When User clicks on the Login button........................................skipped
+Then Takealot Home Page is displayed........................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc61181d3c21a7520e0c7664592c50fa, get {url=https://www.master.env/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/tm/n65vvs_54fs...}, goog:chromeOptions: {debuggerAddress: localhost:54671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54671/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc61181d3c21a7520e0c7664592c50fa
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at pageObjects.HomePageObjects.navigate_to_home_page(HomePageObjects.java:25)
+	at stepDefinitions.LoginSteps.user_is_on_takealot_home_page(LoginSteps.java:28)
+	at ✽.User is on Takealot home page(file:///Users/anish.kaithassery/comseleniumcucumber/src/test/resources/features/Login.feature:4)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
